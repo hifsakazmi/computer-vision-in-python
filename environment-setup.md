@@ -1,5 +1,6 @@
 1. Open cmd
-2. cd D:\Projects\AI-bootcamp
+2. Navigate to project directory:
+   cd D:\Projects\AI-bootcamp
 -------------------------------------------------------
 Setup conda virtual environment
 
