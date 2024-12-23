@@ -13,8 +13,13 @@ Or to create env with a specific python version:
 ```
 conda create -n [env-name] python=3.12
 ```
+Activate the environment that was just created
 ```
 activate [env-name]
+```
+
+Install pip and other required packages
+```
 conda install pip 
 pip install --upgrade tensorflow
 pip install --upgrade pandas
@@ -22,9 +27,11 @@ pip install --upgrade matplotlib
 pip install --upgrade seaborn
 pip install --upgrade scikit-learn
 ```
+
+Install ipykernel and associate a kernel to your virtual environment
 ```
 pip install ipykernel
-python -m ipykernel install --user --name=[env-name] --display-name "Python (ai-env)"
+python -m ipykernel install --user --name=[env-name] --display-name "Python (any name)"
 jupyter notebook 
 ```
 To list all the installed packages in the virtual environment
