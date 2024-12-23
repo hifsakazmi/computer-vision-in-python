@@ -44,3 +44,7 @@ conda list
 conda activate [env-name]
 conda deactivate
 ```
+
+#### References
+1. https://github.com/margaretmz/deep-learning/blob/master/setup-anaconda-jupyter-tf-keras.md
+   
