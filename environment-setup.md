@@ -41,7 +41,11 @@ conda list
 
 ### Activate/Deactivate Virtual environment
 ```
+conda init
 conda activate [env-name]
+```
+To deactivate a virtual environment
+```
 conda deactivate
 ```
 
